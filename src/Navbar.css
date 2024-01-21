@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ededed;
+    color: black;
+}
+
+.navbar-left h1 {
+    margin: 0;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+}
+
+.dropdown-triangle {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(50%);
+    width: 0;
+    height: 0;
+    margin-left: 1.3rem;
+    margin-top: 0.1rem;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #333;
+    cursor: pointer;
+}
+
+.dropdown-triangle:hover {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #ff0000;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.user-info img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.user-info-modal {
+
+    position: absolute;
+    right: 0;
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.user-info-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 999;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #000;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}

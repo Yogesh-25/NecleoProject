@@ -1,0 +1,73 @@
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.add-card-form-container,
+.crud-card {
+    flex-basis: calc(23%);
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: none;
+}
+.add-card-form-container,
+.crud-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-card-form-container,
+.crud-card {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 23%;
+}
+
+.crud-card h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+@media only screen and (min-width: 150px) {
+
+    .add-card-form-container,
+    .crud-card {
+        flex-basis: calc(95% - 2%);
+    }
+}
+
+@media only screen and (min-width: 840px) {
+
+    .add-card-form-container,
+    .crud-card {
+        flex-basis: calc(48% - 2%);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .add-card-form-container,
+    .crud-card {
+        flex-basis: calc(31.3% - 2%);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .add-card-form-container,
+    .crud-card {
+        flex-basis: calc(23% - 2%);
+    }
+}

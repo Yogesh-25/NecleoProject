@@ -1,0 +1,57 @@
+.showCardDetail {
+
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #2c2b2b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.heading-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-card-details {
+    margin: 0;
+}
+
+.close-buttonc {
+    background-color: white;
+    color: #0f0e0e;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.close-buttonc:hover {
+    color: #ff0000;
+}
+
+@media only screen and (min-width: 600px) {
+    .showCardDetail {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .showCardDetail {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .showCardDetail {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .showCardDetail {
+        width: 50%;
+    }
+}

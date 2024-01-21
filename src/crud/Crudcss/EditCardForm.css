@@ -1,0 +1,14 @@
+.update-borm-button {
+    background-color: rgb(73, 244, 73);
+    border: 0.1px;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 0.4rem;
+    margin-top:0.5rem ;
+    margin-bottom: 0.5rem;
+}
+
+.update-borm-button:hover {
+    background-color: rgb(126, 251, 126);
+    box-shadow: 0 0 10px 0 rgb(94, 196, 94);
+}
